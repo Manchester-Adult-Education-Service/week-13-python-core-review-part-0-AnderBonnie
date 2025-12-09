@@ -37,6 +37,11 @@ print("-------------------------------------------\n"
 # 4. Print the final 'total_cost' using an f-string, formatted to two decimal places.
 
 # Write your code below:
+price = float (45.00)
+VAT_RATE = float (0.20) #20%
+total_cost = (price * VAT_RATE) + price
+print(f"total_cost: £{total_cost:.2f}")
+
 
 
 # -------------------------------------------
@@ -70,6 +75,13 @@ print("\n-------------------------------------------\n"
 # 5. Otherwise (if total_cost is 60 or more), print "Purchase denied: Budget severely exceeded."
 
 # Write your code below:
+budget = 50
+if 'total_coast' >= str (budget):
+    print ("Purchase approved : Within buget.")
+elif 'total_coast' <= str (budget) >= str (60) :
+    print ("Purchase exceeds budget but is manageable")
+else :
+    Print ("Purchase denied : Budget severely exceeded")
 
 
 # -------------------------------------------
